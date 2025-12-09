@@ -1,5 +1,5 @@
 from redis.asyncio import Redis
-from core.config import settings
+from src.core.config import settings
 
 class RedisHelper:
     def __init__(self):
